@@ -8,7 +8,7 @@ def create_project_folder(folder_name):
     Creates a project folder with the specified name and initializes an index.html file 
     with a properly indented structure, along with CSS and JS subdirectories.
     
-    :param folder_name:
+    :param folder_name: The name of the folder we are trying to create
     """
     base_path = os.path.abspath(folder_name)
     subfolders = ["CSS", "JS"]
